@@ -1,0 +1,15 @@
+{
+  "name": "web1-c",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "Web1C",
+  "author": {
+    "name": "BurA"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

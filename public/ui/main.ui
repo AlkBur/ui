@@ -1,0 +1,13 @@
+{
+	"type": "carousel",
+	"direction": "horizontal",
+	"style": "height: 50px; background-color: #FFE773;",
+	"items":[
+		{"type": "button", "text": "Hello1"},
+		{"type": "button", "text": "Hello2"},
+		{"type": "button", "text": "Hello3"},
+		{"type": "button", "text": "Hello4"},
+		{"type": "button", "text": "Hello5"},
+		{"type": "button", "text": "Hello6"}
+	]
+}
