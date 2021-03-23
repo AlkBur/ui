@@ -8,7 +8,6 @@ const path = require('path');
 const app = express();
 const router = express.Router();
 
-//app.use('/webix', express.static(path.join(__dirname, 'public', 'webix')));
 app.use('/js', express.static(path.join(__dirname, 'public', 'js')));
 app.use('/css', express.static(path.join(__dirname, 'public', 'css')));
 app.use('/ui', express.static(path.join(__dirname, 'public', 'ui')));

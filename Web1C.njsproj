@@ -48,30 +48,6 @@
     <Content Include="public\index.html" />
     <Content Include="public\js\ui.js" />
     <Content Include="public\ui\main.ui" />
-    <Content Include="public\webix\fonts\font-license.txt" />
-    <Content Include="public\webix\fonts\PTS-bold.woff" />
-    <Content Include="public\webix\fonts\PTS-webfont.woff" />
-    <Content Include="public\webix\fonts\Roboto-Medium-webfont.woff" />
-    <Content Include="public\webix\fonts\Roboto-Medium-webfont.woff2" />
-    <Content Include="public\webix\fonts\Roboto-Regular-webfont.woff" />
-    <Content Include="public\webix\fonts\Roboto-Regular-webfont.woff2" />
-    <Content Include="public\webix\fonts\webixmdi-webfont.woff" />
-    <Content Include="public\webix\fonts\webixmdi-webfont.woff2" />
-    <Content Include="public\webix\skins\compact.css" />
-    <Content Include="public\webix\skins\compact.min.css" />
-    <Content Include="public\webix\skins\contrast.css" />
-    <Content Include="public\webix\skins\contrast.min.css" />
-    <Content Include="public\webix\skins\flat.css" />
-    <Content Include="public\webix\skins\flat.min.css" />
-    <Content Include="public\webix\skins\material.css" />
-    <Content Include="public\webix\skins\material.min.css" />
-    <Content Include="public\webix\skins\mini.css" />
-    <Content Include="public\webix\skins\mini.min.css" />
-    <Content Include="public\webix\webix.css" />
-    <Content Include="public\webix\webix.js" />
-    <Content Include="public\webix\webix.min.css" />
-    <Content Include="public\webix\webix.min.js" />
-    <Content Include="public\webix\webix.min.js.map" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
@@ -81,14 +57,6 @@
     <Folder Include="public\css\" />
     <Folder Include="public\fonts\" />
     <Folder Include="public\ui\" />
-    <Folder Include="public\webix\" />
-    <Folder Include="public\webix\fonts\" />
-    <Folder Include="public\webix\skins\" />
-    <Folder Include="public\webix\types\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="public\webix\types\webix.d.ts" />
-    <TypeScriptCompile Include="public\webix\types\webix.global.d.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
